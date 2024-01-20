@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ebac - Ensino à distância</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Ebac</h1>
+            <img src="images/ebac-logo.png" alt="Logo Ebac">
             <nav>
                 <ul>
                     <li>
@@ -23,7 +27,7 @@
     </header>
     <section id="sobre-nos">
         <div class="container">
-            <img src="images/ebac-logo.png" alt="Logo Ebac">
+            <img class="imagem-destaque" src="images/ebac.png" alt="Foto Ebac">
             <div>
                 <h2>Sobre a Ebac</h2>
                 <p>
@@ -32,10 +36,13 @@
                 <p>
                     Com um corpo docente formado por excelentes profissionais atuantes no mercado do Brasil e Latam, nossa escola oferece um novo modelo de ensino das disciplinas que envolvem criatividade, tecnologia, marketing, audiovisual e negócios, além de uma série de iniciativas que preparam o aluno para sua inserção no mercado de trabalho.
                 </p>
-                <ul>
-                    <li><img src="/images/python.png" alt="Logo Python"></li>
-                    <li><img src="/images/java.png" alt="Logo Java"></li>
-                    <li><img src="/images/unreal.png" alt="Logo Unreal Engine"></li>
+                <h2 class="parceiros">Parceiros</h2>
+                <ul class="lista-cursos">
+                    <li><img src="/images/itau.png" alt="Logo Itau"></li>
+                    <li><img src="/images/dell.png" alt="Logo Dell"></li>
+                    <li><img src="/images/pet.png" alt="Logo Petlove"></li>
+                    <li><img src="/images/one.png" alt="Logo One"></li>
+                    <li><img src="/images/ifood.png" alt="Logo Ifood"></li>                    
                 </ul>
             </div>
         </div>
@@ -45,40 +52,45 @@
             <h2>Contato</h2>
             <div class="meios-contato">
                 <div>
-                    <h3>Fale conosco</h3>
-                    <form>
-                        <input type="text" placeholder="Seu nome">
-                        <input type="email" placeholder="Seu e-mail">
-                        <input type="tel" placeholder="Seu telefone">
-                        <textarea placeholder="Sua mensagem"></textarea>
-                        <button type="submit">Enviar</button>
-                    </form>
+                    <h3>Onde estamos?</h3>
+                    <p>
+                        Rua Salem Bechara, 140, conj. 1601, centro, CEP 06018-180, Osasco, SP, Brasil.
+                    </p>
                 </div>
                 <div>
-                    <h3>Acompanhe nossas redes social-links</h3>
+                    <h3>Acompanhe nossas redes</h3>
                     <ul class="social-links">
                         <li>
-                            <a href="#" title="Siga-nos no Instagram">
+                            <a href="https://www.instagram.com/e.b.a.c/" title="Siga-nos no Instagram">
                                 <img src="images/instagram.png" alt="Instagram">
                             </a>
                         </li>
                         <li>
-                            <a href="#" title="Siga-nos no Facebook">
+                            <a href="https://www.facebook.com/escolabritanicadeartescriativas/" title="Siga-nos no Facebook">
                                 <img src="images/facebook.png" alt="Facebook">
                             </a>
                         </li>
                         <li>
-                            <a href="#" title="Visite nosso canal no Youtube">
+                            <a href="https://www.youtube.com/EBACoficial" title="Visite nosso canal no Youtube">
                                 <img src="images/youtube.png" alt="Youtube">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/school/ebac-escola-britanica-artes-criativas" title="Visite nosso canal no Youtube">
+                                <img src="images/linkedin.png" alt="Linkedin">
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h3>Onde estamos?</h3>
-                    <p>
-                        Rua Salem Bechara, 140, conj. 1601, centro, CEP 06018-180, Osasco, SP, Brasil.
-                    </p>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Insira seu nome" required>
+                        <input type="email" placeholder="Insira seu e-mail" required>
+                        <input type="tel" placeholder="Insira seu telefone (Opcional)">
+                        <textarea placeholder="Insira sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
                 </div>
             </div>            
         </div>
@@ -89,7 +101,6 @@
                 &copy; Ebac - Todos os direitos reservados - 2024
             </p>
         </div>
-
     </footer>
 </body>
 </html>
